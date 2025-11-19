@@ -2,20 +2,12 @@
 
 A Python client library for the ClassCharts API, providing easy access to student and parent data from ClassCharts.
 
-## Features
-
-- 🔐 **Authentication**: Support for both parent and student login
-- 📚 **Comprehensive API**: Access to homework, behaviour, attendance, lessons, and more
-- 🎯 **Type Safety**: Full type hints using TypedDict for better IDE support
-- 🧪 **Well Tested**: Comprehensive test suite with pytest
-- 🐍 **Pythonic**: Idiomatic Python code following best practices
-
 ## Installation
 
-### From GitHub
+### From PyPi
 
 ```bash
-pip install git+https://github.com/lilphil/pyclasscharts.git
+pip install pyclasschartsapi
 ```
 
 ## Quick Start
@@ -277,7 +269,7 @@ for point in activity[:10]:  # Show first 10
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pyclasscharts.git
+git clone https://github.com/lilphil/pyclasscharts.git
 cd pyclasscharts
 
 # Install in development mode
