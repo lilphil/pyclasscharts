@@ -1,0 +1,22 @@
+* text=auto
+
+*.py linguist-language=Python
+*.py eol=lf
+*.sh eol=lf
+
+# Treat docs/markdown as text
+*.txt text eol=lf
+*.rst text eol=lf
+*.md text eol=lf
+
+# Ensure binary files are handled correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+*.ico binary
+
+# Keep notebook files normalized
+*.ipynb text
+
