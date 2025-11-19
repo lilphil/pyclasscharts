@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pyclasscharts"
+name = "pyclasschartsapi"
 version = "0.1.0"
 description = "Python client library for the ClassCharts API"
 readme = "README.md"
